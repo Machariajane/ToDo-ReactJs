@@ -47,7 +47,8 @@ componentDidMount() {
     .then(res => this.setState({todos: [...this.state.todos, res.data] }))
     
   }
-
+//componentDidMount() method  rounds off the render method then updates the render method so we can output 
+//render method is responsible for producing the output of the application
   render(){
   
     return (
